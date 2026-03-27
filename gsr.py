@@ -17,7 +17,12 @@ df.to_csv("gold_silver.csv")
 plt.figure(figsize=(10, 4))
 plt.plot(df.index, df["GSR"])
 plt.axhline(80, color="red", linestyle="--")
+# Upper bound indicates short gold long silver, gold is expensive relative to silver
+
 plt.axhline(60, color="red", linestyle="--")
+# Upper bound indicates short gold long silver, gold is expensive relative to silver
+
+
 plt.title("Gold to Silver Ratio")
 plt.ylabel("GSR")
 plt.xlabel("Date")

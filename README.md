@@ -1,1 +1,1 @@
-small projects aimed at Research and Exploratory Data Analysis, among other things
+small projects aimed at Data Analysis and Research
